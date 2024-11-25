@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 642.99 576.64">
+  <defs>
+    <style>
+      .c {
+        fill: #fff;
+      }
+
+      .d {
+        fill: #141312;
+      }
+    </style>
+  </defs>
+  <g id="a" data-name="Layer 4 copy 4">
+    <circle class="d" cx="314.19" cy="293.14" r="247.5"/>
+  </g>
+  <g id="b" data-name="Layer 17">
+    <rect class="c" x="289.69" y="133.64" width="46" height="320" rx="23" ry="23"/>
+    <rect class="c" x="290.69" y="133.64" width="46" height="320" rx="23" ry="23" transform="translate(607.33 -20.04) rotate(90)"/>
+  </g>
+</svg>

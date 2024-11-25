@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 586.15 576.64">
+  <defs>
+    <style>
+      .d {
+        fill: #bbddea;
+      }
+
+      .e {
+        fill: #916a50;
+      }
+
+      .f {
+        fill: none;
+        stroke: #bbddea;
+        stroke-miterlimit: 10;
+        stroke-width: 18px;
+      }
+
+      .g {
+        fill: #209f1e;
+      }
+
+      .h {
+        fill: #3f2c24;
+      }
+    </style>
+  </defs>
+  <g id="a" data-name="Layer 4 copy">
+    <g>
+      <path class="d" d="m291.5,292.14l-247.5.98c0-.33,0-.65,0-.98,0-135.77,111.73-247.5,247.5-247.5s247.5,111.73,247.5,247.5h-247.5Z"/>
+      <path class="e" d="m291.96,293.01l247.5-.98c0,.33,0,.65,0,.98,0,135.77-111.73,247.5-247.5,247.5S44.46,428.79,44.46,293.01h247.5Z"/>
+    </g>
+  </g>
+  <g id="b" data-name="Layer 7">
+    <rect class="h" x="122" y="337.64" width="30" height="30" rx="5.3" ry="5.3" transform="translate(-209.23 200.16) rotate(-45)"/>
+    <rect class="h" x="183.94" y="338.01" width="30" height="30" rx="5.3" ry="5.3" transform="translate(-191.35 244.06) rotate(-45)"/>
+    <rect class="h" x="245.94" y="338.01" width="30" height="30" rx="5.3" ry="5.3" transform="translate(-173.19 287.9) rotate(-45)"/>
+    <rect class="h" x="307.94" y="338.01" width="30" height="30" rx="5.3" ry="5.3" transform="translate(-155.03 331.74) rotate(-45)"/>
+    <rect class="h" x="368.94" y="338.01" width="30" height="30" rx="5.3" ry="5.3" transform="translate(-137.16 374.88) rotate(-45)"/>
+    <rect class="h" x="431.15" y="338.01" width="30" height="30" rx="5.3" ry="5.3" transform="translate(-118.94 418.87) rotate(-45)"/>
+    <rect class="h" x="151.94" y="398.01" width="30" height="30" rx="5.3" ry="5.3" transform="translate(-243.15 239.01) rotate(-45)"/>
+    <rect class="h" x="212.94" y="398.01" width="30" height="30" rx="5.3" ry="5.3" transform="translate(-225.28 282.14) rotate(-45)"/>
+    <rect class="h" x="275.94" y="398.01" width="30" height="30" rx="5.3" ry="5.3" transform="translate(-206.83 326.69) rotate(-45)"/>
+    <rect class="h" x="336.94" y="398.01" width="30" height="30" rx="5.3" ry="5.3" transform="translate(-188.96 369.82) rotate(-45)"/>
+    <rect class="h" x="398.94" y="398.01" width="30" height="30" rx="5.3" ry="5.3" transform="translate(-170.8 413.66) rotate(-45)"/>
+    <g>
+      <path class="g" d="m191,158.64s-7,88,59,81c0,0,18-3,25-30,0,0,7-61-84-51Z"/>
+      <path class="g" d="m296,222.64s-33-94,96-82c0,0,12.72,104.79-66.64,100.4,0,0-19.36-7.4-29.36-18.4Z"/>
+      <path class="g" d="m275,209.64s14.87,18.98,15.94,27.49c0,0,7.21-14.19,7.14-16.34s13.92,9.85,13.92,9.85c0,0-15,20-11,45h-17.51s-2.44-40.62-16.46-48.31l7.97-17.69Z"/>
+    </g>
+  </g>
+  <g id="c" data-name="Layer 8">
+    <g>
+      <path class="f" d="m229,202.64s48.91,30.99,45,74"/>
+      <ellipse class="d" cx="228" cy="202.14" rx="9" ry="9.5"/>
+    </g>
+    <g>
+      <path class="f" d="m354.73,199.6s-48.91,30.99-45,74"/>
+      <ellipse class="d" cx="355.73" cy="199.1" rx="9" ry="9.5"/>
+    </g>
+  </g>
+</svg>
