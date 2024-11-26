@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 586.15 576.64">
+  <defs>
+    <style>
+      .c {
+        fill: #e88b00;
+      }
+
+      .d {
+        fill: #f9f9f9;
+      }
+
+      .e {
+        fill: #5dd64f;
+      }
+    </style>
+  </defs>
+  <g id="a" data-name="Layer 4">
+    <circle class="e" cx="291.5" cy="293.14" r="247.5"/>
+  </g>
+  <g id="b" data-name="Layer 3">
+    <rect class="d" x="328" y="191.64" width="26" height="14"/>
+    <rect class="d" x="328" y="218.64" width="26" height="14"/>
+    <rect class="c" x="328" y="245.64" width="26" height="14"/>
+    <rect class="c" x="328" y="272.64" width="26" height="14"/>
+    <rect class="c" x="328" y="299.64" width="26" height="14"/>
+    <rect class="d" x="258" y="143.64" width="53" height="139" rx="26" ry="26"/>
+    <g>
+      <rect class="c" x="258" y="245.64" width="53" height="100"/>
+      <circle class="c" cx="285" cy="386.64" r="54"/>
+    </g>
+  </g>
+</svg>
