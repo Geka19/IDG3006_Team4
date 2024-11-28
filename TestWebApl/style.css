@@ -2,12 +2,15 @@
     --ButtonCol: #005261;
     --HovActCol: #038096;
 }
-
 body{
-    margin: 0;
+    margin: 0; 
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(#9f86c0, #e0b1cb);
 }
 
 /* Innmat, clumzy code ik, men ellers var alt clused til toppen*/
+/*i laugh at offal*/ 
 .Offal{
     margin: 2%;
 }
@@ -20,38 +23,42 @@ h1, h2, h3{
     font-weight: bolder;
 }
 
-.BackGr{
-    height: 178.5mm;
-    width: 247.6mm;
-    background-image: linear-gradient(#9f86c0, #e0b1cb);
-    overflow-x: hidden;
-    overflow-y: auto;
+main{
+    height: 100vh; 
+    width: 100vw; 
+    
+    overflow: hidden;
+}
+.wavy-line {
+    position: absolute;
+    bottom: 0; /* Stick to the bottom */
+    width: 100%; /* Stretch across the width of the viewport */
+  }
+.wavy-line svg {
+    display: block;
+  }
+  .hidden {
+    display: none;
 }
 
-
+/* Optional styling for the input field */
+#nameInput {
+    width: 100%;
+    font-size: 1.2rem;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
 
 /* called the top with names and edit button for Top stuff cause it's not a nav bar, no creativety ik*/
 .ToppStuff{
     display: flex;
-    align-items: center;
     justify-content: center;
-    gap: 30px;
-    
 }
-
-/* Just commneted out the switching between planst, you can remove if you dont want em after all
-.DiffPlants{
-    display:grid;
-    grid-template-columns: 45px 45px;
-    grid-row: auto auto;
-    grid-column-gap: 15px;
-    grid-row-gap: 15px;
-}
-*/
-
 .PlantNameType{
-    width: 250px;
-    height: 100px;
+    width: 30%;
+    height: 100%;
     background-color: aliceblue;
     border-radius: 15px;
 }
@@ -63,6 +70,13 @@ h1, h2, h3{
 .PlantName p{
     font-weight: bold;
     font-size: 20px;
+}
+.EditPen{
+    margin-left: 2%;
+    padding-left: 1%;
+    height: 100%;
+    border-radius: 25%;
+    
 }
 
 .EditPen a:link, a:visited {

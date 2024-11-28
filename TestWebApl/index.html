@@ -8,40 +8,19 @@
     <script src="script.js" defer></script>
 </head>
 <body>
-    <div class="BackGr">
+    <main>
         <div class="Offal">
             <div class="ToppStuff">
-                <!--
-                <div class="DiffPlants">
-                    <div class="Plant1">
-                        <p>1</p>
-                    </div>
-                    <div class="Plant2">
-                        <p>2</p>
-                    </div>
-                    <div class="Plant3">
-                        <p>3</p>
-                    </div>
-                    <div class="Plant4">
-                        <p>4</p>
-                    </div>
-                </div> -->
-
                 <div class="PlantNameType">
                     <div class="PlantName">
-                        <h2>Name</h2>
-                    </div>
-                    <div class="PlantType">
-                        <p>Type</p>
-                    </div>
+                        <h2 id="plantName">Navn</h2>
+                        <input type="text" id="nameInput" class="hidden" placeholder="Enter plant name">
+                    </div>                
                 </div>
-
                 <div class="EditPen">
-                    <a href=""><img class="SVGicons" src="/TestWebApl/SVG/Pen_icon.svg"></a>
-                </div>
-
-                <div class="PlussIcon">
-                    <a href=""><img class="SVGicons" src="/TestWebApl/SVG/Pluss_icon.svg"></a>
+                    <a href="javascript:void(0)" id="editPen">
+                        <img src="/TestWebApl/SVG/Pen_icon.svg" alt="Edit">
+                    </a>
                 </div>
             </div>
 
@@ -50,16 +29,13 @@
 
                 <div class="IconConditions">
                     <div class="IconTemp">
-                        <!--<a href=""><img class="SVGicons" src="/TestWebApl/SVG/Temp_norm.svg"></a>-->
-                        <button class="SVGicons"></button>
+                        <button class="SVGicons">  <a href="temp.html"><img class="SVGicons" src="/TestWebApl/SVG/Temp_norm.svg"></a></button>
                     </div>
                     <div class="IconHum">
-                        <!--<a href=""><img class="SVGicons" src="/TestWebApl/SVG/Humid_norm.svg"></a>-->
-                        <button class="SVGicons"></button>
+                        <button class="SVGicons"> <a href="hum.html"><img class="SVGicons" src="/TestWebApl/SVG/Humid_norm.svg"></a></button>
                     </div>
                     <div class="IconSun">
-                        <!--<a href=""><img class="SVGicons" src="/TestWebApl/SVG/Sun_norm.svg"></a>-->
-                        <button class="SVGicons"></button>
+                        <button class="SVGicons">  <a href="sun.html"><img class="SVGicons" src="/TestWebApl/SVG/Sun_norm.svg"></a></button>
                     </div>
                 </div>
 
@@ -71,9 +47,18 @@
                     <div class="InfoButton">
                         <a href="about.html"><img class="SVGicons" src="/TestWebApl/SVG/Info_book.svg"></a>
                     </div>
+                    <div class="IconSun">
+                        <button class="SVGicons"><a href="education.html"><img class="SVGicons"></a></button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+       
+    </main>
+    <div class="wavy-line">
+        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 100 20" preserveAspectRatio="none">
+          <path class="path" d="M0 10 Q 50 0, 100 10 V 20 H 0 Z" fill="#f0f8ff"/>
+        </svg>
+      </div>
 </body>
 </html>
