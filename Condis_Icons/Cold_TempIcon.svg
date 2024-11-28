@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1003.58 633.64">
+  <defs>
+    <style>
+      .c {
+        fill: #f9f9f9;
+      }
+
+      .c, .d {
+        stroke-width: 3px;
+      }
+
+      .c, .d, .e {
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .d {
+        fill: #506acc;
+      }
+
+      .e {
+        fill: #7cbde5;
+        stroke-width: 4px;
+      }
+    </style>
+  </defs>
+  <g id="a" data-name="Layer 4">
+    <circle class="e" cx="314.19" cy="293.14" r="247.5"/>
+  </g>
+  <g id="b" data-name="Layer 3 copy 3">
+    <rect class="c" x="350.69" y="191.64" width="26" height="14"/>
+    <rect class="c" x="350.69" y="218.64" width="26" height="14"/>
+    <rect class="c" x="350.69" y="245.64" width="26" height="14"/>
+    <rect class="c" x="350.69" y="272.64" width="26" height="14"/>
+    <rect class="d" x="350.69" y="299.64" width="26" height="14"/>
+    <rect class="c" x="280.69" y="143.64" width="53" height="196.5" rx="26" ry="26"/>
+    <g>
+      <rect class="d" x="280.69" y="299.14" width="53" height="46.5"/>
+      <circle class="d" cx="307.69" cy="386.64" r="54"/>
+    </g>
+  </g>
+</svg>
