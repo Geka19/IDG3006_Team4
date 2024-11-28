@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1003.58 600">
+  <defs>
+    <style>
+      .d {
+        fill: #ffc850;
+      }
+
+      .d, .e, .f {
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .d, .f {
+        stroke-width: 4px;
+      }
+
+      .e {
+        fill: none;
+        stroke-width: 8px;
+      }
+
+      .f {
+        fill: #fff;
+        font-family: ArialRoundedMTBold, 'Arial Rounded MT Bold';
+        font-size: 173px;
+      }
+    </style>
+  </defs>
+  <g id="a" data-name="Layer 4 copy 3">
+    <circle class="d" cx="314.19" cy="259.5" r="247.5"/>
+  </g>
+  <g id="b" data-name="Layer 28">
+    <text class="f" transform="translate(251.67 164.31)"><tspan x="0" y="0">1</tspan></text>
+    <text class="f" transform="translate(416.62 389.06)"><tspan x="0" y="0">2</tspan></text>
+    <text class="f" transform="translate(107.62 389.06)"><tspan x="0" y="0">3</tspan></text>
+  </g>
+  <g id="c" data-name="Layer 29">
+    <g>
+      <path class="e" d="m202.87,124.47c-27.29,19.94-58.1,56.09-61.46,118.61"/>
+      <path d="m245.87,102.5c-24.02,3.19-55.66,3.67-78.23-1.61l29.97,27.18,5.65,40.06c8.31-21.64,26.48-47.55,42.61-65.63Z"/>
+    </g>
+    <g>
+      <path class="e" d="m463.79,183.64c-13.72-30.89-42.54-68.64-102.94-85.14"/>
+      <path d="m476.17,230.3c1.96-24.15,8.18-55.18,18.11-76.13l-32.9,23.55-40.34-2.95c19.4,12.69,40.87,35.94,55.13,55.52Z"/>
+    </g>
+    <g>
+      <path class="e" d="m268.45,423.14c31.89,11.21,79.13,16.14,132.56-16.48"/>
+      <path d="m226.01,400.14c16.23,18,34.54,43.81,42.96,65.4l5.44-40.09,29.82-27.33c-22.54,5.4-54.19,5.09-78.22,2.02Z"/>
+    </g>
+  </g>
+</svg>

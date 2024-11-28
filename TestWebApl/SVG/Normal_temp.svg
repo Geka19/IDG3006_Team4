@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" data-name="Layer 3 copy" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1003.58 600">
+  <defs>
+    <style>
+      .b {
+        fill: #f9f9f9;
+      }
+
+      .b, .c {
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+
+      .c {
+        fill: #296642;
+      }
+    </style>
+  </defs>
+  <rect class="b" x="350.69" y="158" width="26" height="14"/>
+  <rect class="b" x="350.69" y="185" width="26" height="14"/>
+  <rect class="c" x="350.69" y="212" width="26" height="14"/>
+  <rect class="c" x="350.69" y="239" width="26" height="14"/>
+  <rect class="c" x="350.69" y="266" width="26" height="14"/>
+  <rect class="b" x="280.69" y="110" width="53" height="139" rx="26" ry="26"/>
+  <g>
+    <rect class="c" x="280.69" y="212" width="53" height="100"/>
+    <circle class="c" cx="307.69" cy="353" r="54"/>
+  </g>
+</svg>

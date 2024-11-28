@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1003.58 600">
+  <defs>
+    <style>
+      .d, .e, .f, .g {
+        stroke-miterlimit: 10;
+      }
+
+      .d, .h {
+        fill: #bad2e8;
+      }
+
+      .d, .f {
+        stroke-width: 4px;
+      }
+
+      .d, .f, .g {
+        stroke: #000;
+      }
+
+      .e {
+        fill: none;
+        stroke: #bad2e8;
+        stroke-width: 18px;
+      }
+
+      .f {
+        fill: #916a50;
+      }
+
+      .i {
+        fill: #3f2c24;
+      }
+
+      .g {
+        fill: #296642;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <g id="a" data-name="Layer 4 copy 8">
+    <g>
+      <path class="d" d="m314.69,273l-248-13.52c0-.33,0-.65,0-.98,0-135.77,111.73-247.5,247.5-247.5s247.5,111.73,247.5,247.5l-247,14.5Z"/>
+      <path class="f" d="m314.64,259.37l247.5-.98c0,.33,0,.65,0,.98,0,135.77-111.73,247.5-247.5,247.5s-247.5-111.73-247.5-247.5h247.5Z"/>
+    </g>
+  </g>
+  <g id="b" data-name="Layer 7">
+    <rect class="i" x="144.69" y="304" width="30" height="30" rx="5.3" ry="5.3" transform="translate(-178.8 206.35) rotate(-45)"/>
+    <rect class="i" x="206.62" y="304.36" width="30" height="30" rx="5.3" ry="5.3" transform="translate(-160.91 250.25) rotate(-45)"/>
+    <rect class="i" x="268.62" y="304.36" width="30" height="30" rx="5.3" ry="5.3" transform="translate(-142.75 294.09) rotate(-45)"/>
+    <rect class="i" x="330.62" y="304.36" width="30" height="30" rx="5.3" ry="5.3" transform="translate(-124.59 337.93) rotate(-45)"/>
+    <rect class="i" x="391.62" y="304.36" width="30" height="30" rx="5.3" ry="5.3" transform="translate(-106.73 381.06) rotate(-45)"/>
+    <rect class="i" x="453.84" y="304.36" width="30" height="30" rx="5.3" ry="5.3" transform="translate(-88.5 425.06) rotate(-45)"/>
+    <rect class="i" x="174.62" y="364.36" width="30" height="30" rx="5.3" ry="5.3" transform="translate(-212.71 245.2) rotate(-45)"/>
+    <rect class="i" x="235.62" y="364.36" width="30" height="30" rx="5.3" ry="5.3" transform="translate(-194.84 288.33) rotate(-45)"/>
+    <rect class="i" x="298.62" y="364.36" width="30" height="30" rx="5.3" ry="5.3" transform="translate(-176.39 332.88) rotate(-45)"/>
+    <rect class="i" x="359.62" y="364.36" width="30" height="30" rx="5.3" ry="5.3" transform="translate(-158.52 376.01) rotate(-45)"/>
+    <rect class="i" x="421.62" y="364.36" width="30" height="30" rx="5.3" ry="5.3" transform="translate(-140.37 419.85) rotate(-45)"/>
+    <g>
+      <path class="g" d="m213.69,125s-7,88,59,81c0,0,18-3,25-30,0,0,7-61-84-51Z"/>
+      <path class="g" d="m318.69,189s-33-94,96-82c0,0,12.72,104.79-66.64,100.4,0,0-19.36-7.4-29.36-18.4Z"/>
+      <path class="g" d="m297.69,176s14.87,18.98,15.94,27.49c0,0,7.21-14.19,7.14-16.34s13.92,9.85,13.92,9.85c0,0-15,20-11,45h-17.51s-2.44-40.62-16.46-48.31l7.97-17.69Z"/>
+    </g>
+  </g>
+  <g id="c" data-name="Layer 8">
+    <g>
+      <path class="e" d="m251.69,169s48.91,30.99,45,74"/>
+      <ellipse class="h" cx="250.69" cy="168.5" rx="9" ry="9.5"/>
+    </g>
+    <g>
+      <path class="e" d="m377.42,165.96s-48.91,30.99-45,74"/>
+      <ellipse class="h" cx="378.42" cy="165.46" rx="9" ry="9.5"/>
+    </g>
+  </g>
+</svg>
