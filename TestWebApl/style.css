@@ -4,9 +4,21 @@
 }
 body{
     margin: 0; 
-    height: 100%;
-    width: 100%;
+    height: 100vh; /* Full screen height */
+    width: 100vw; /* Full screen width */
     background-image: linear-gradient(#9f86c0, #e0b1cb);
+    background-size: cover; /* Ensures background covers entire viewport */
+    background-repeat: no-repeat; /* Prevents tiling */
+    background-attachment: fixed; /* Keeps background fixed when scrolling */
+    display: flex; /* Flexbox to center content */
+    flex-direction: column; /* Ensure vertical stacking of content */
+    justify-content: space-between; 
+}
+main{
+    margin: 0; 
+    height: 100vh; /* Full screen height */
+    width: 100vw;
+    overflow: hidden;
 }
 
 /* Innmat, clumzy code ik, men ellers var alt clused til toppen*/
@@ -23,12 +35,6 @@ h1, h2, h3{
     font-weight: bolder;
 }
 
-main{
-    height: 100vh; 
-    width: 100vw; 
-    
-    overflow: hidden;
-}
 .wavy-line {
     position: absolute;
     bottom: 0; /* Stick to the bottom */
@@ -39,6 +45,19 @@ main{
 }
 
 .hidden {
+    width: 100%; /* Full width of viewport */
+    height: auto; /* Maintain aspect ratio of the SVG */
+    position: relative;
+    bottom: 0; /* Stick to the bottom of the page */
+    z-index: 10; /* Stretch across the width of the viewport */
+  }
+.wavy-line svg {
+    display: block;
+    width: 100%; /* Stretch the SVG to match viewport width */
+    height: 20vh; /* Adjust height proportionally */
+    display: block;
+  }
+  .hidden {
     display: none;
 }
 
@@ -54,30 +73,30 @@ main{
 
 /* called the top with names and edit button for Top stuff cause it's not a nav bar, no creativety ik*/
 .ToppStuff{
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 10%;;
 }
 .PlantNameType{
-    width: 30%;
+    width: 100%;
     height: 100%;
-    background-color: aliceblue;
     border-radius: 15px;
+    background-color: aliceblue;
 }
 
 .PlantNameType h2, p{
     text-align: center;
 }
 
-.PlantName p{
-    font-weight: bold;
-    font-size: 20px;
+.PlantName{
+    padding-left: 20%;
+    padding-right: 20%;
+    height: 100%;
 }
 .EditPen{
     margin-left: 2%;
     padding-left: 1%;
     height: 100%;
-    border-radius: 25%;
-    
 }
 
 .EditPen a:link, a:visited {
@@ -126,15 +145,12 @@ main{
 .MiddleStuff{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-top: 10%;
 }
 
-.CenterPlant{
-    place-self: center;
-}
 
 .CenterPlantSVG{
-    width: 90%;
+    width: 50%;
+    margin-left: 25%;
 }
 
 /* Button basics here, u can remove the color and add in your icon svgs instead*/
@@ -142,11 +158,15 @@ main{
     width: 100%;
     height: 100%;
     border-radius: 50%;
+    object-fit: contain;
 }
 
-.IconConditions{
+.IconConditions, .InfoButtonBox{
     display: grid;
     gap: 15px;
+}
+.InfoButtonBox{
+    justify-content: end; /* Aligns all buttons to the right */
 }
 
 /* I don't know if this works for Ipad, you can mess around or I can fix it later*/
@@ -161,33 +181,28 @@ main{
     transform: scale(1.2);
     transition: transform .2s;
 }
-
-
-.IconTemp, .IconHum, .IconSun{
-    height: 70px;
-    width: 70px;
-    border-radius: 50%;
-    display: inline-block;
-}
-
-.InfoButtonBox{
-    place-self: end;
-    transition: transform .2s;
-    margin-bottom: 60%;
-}
-
-.InfoButton a:link, a:visited {
-    display: inline-block;
-    height: 70px;
-    width: 70px;
-    border-radius: 50%;
-    display: inline-block;
-}
-
-.InfoButton a:hover, a:active{
+.InfoButtonBox .SVGicons:hover, .SVGicons:active {
     transform: scale(1.2);
     transition: transform .2s;
 }
+.InfobuttonBox .SVGicons:link, .SVGicons:visited {
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+
+
+.IconTemp, .IconHum, .IconSun, .InfoButton{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+
 
 .DiffPlants p{
     text-align: center;

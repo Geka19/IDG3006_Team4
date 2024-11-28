@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1003.58 600">
+  <defs>
+    <style>
+      .c {
+        fill: #655f68;
+        stroke-width: 4px;
+      }
+
+      .c, .d {
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .d {
+        fill: #f9f9f9;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <g id="a" data-name="Layer 4 copy 5">
+    <circle class="c" cx="314.19" cy="259.5" r="247.5"/>
+  </g>
+  <g id="b" data-name="Layer 11">
+    <circle class="d" cx="313.19" cy="258.5" r="69.5"/>
+    <rect class="d" x="303.69" y="120" width="20" height="50" rx="10" ry="10"/>
+    <rect class="d" x="222.69" y="153" width="20" height="50" rx="10" ry="10" transform="translate(-56.68 223.74) rotate(-46.4)"/>
+    <rect class="d" x="189.69" y="234" width="20" height="50" rx="10" ry="10" transform="translate(-59.31 458.69) rotate(-90)"/>
+    <rect class="d" x="223.69" y="314" width="20" height="50" rx="10" ry="10" transform="translate(308.15 -65.95) rotate(45)"/>
+    <rect class="d" x="303.69" y="348" width="20" height="50" rx="10" ry="10"/>
+    <rect class="d" x="384.54" y="314.45" width="20" height="50" rx="10" ry="10" transform="translate(-124.47 378.4) rotate(-45)"/>
+    <rect class="d" x="417.69" y="234" width="20" height="50" rx="10" ry="10" transform="translate(686.69 -168.69) rotate(90)"/>
+    <rect class="d" x="384.54" y="153.32" width="20" height="50" rx="10" ry="10" transform="translate(241.65 -226.75) rotate(45)"/>
+  </g>
+</svg>
