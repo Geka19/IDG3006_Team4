@@ -13,6 +13,11 @@ body{
     display: flex; /* Flexbox to center content */
     flex-direction: column; /* Ensure vertical stacking of content */
     justify-content: space-between; 
+}
+main{
+    margin: 0; 
+    height: 100vh; /* Full screen height */
+    width: 100vw;
     overflow: hidden;
 }
 
@@ -135,8 +140,8 @@ h1, h2, h3{
 
 
 .CenterPlantSVG{
-    width: 70%;
-    margin-left: 15%;
+    width: 50%;
+    margin-left: 25%;
 }
 
 /* Button basics here, u can remove the color and add in your icon svgs instead*/
