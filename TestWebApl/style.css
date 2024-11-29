@@ -290,12 +290,7 @@ nav a{
     padding: 5px;
 }
 
-.IconPlant{
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    background-color: #edd161;
-}
+
 
 .InfoText{
     width: 350px;
@@ -307,6 +302,7 @@ nav a{
 
 .InfoTextChanges{
     padding: 7%;
+    overflow:hidden;
 }
 
 .InfoText p{
@@ -328,9 +324,10 @@ nav a{
 }
 
 .PlantHeight, .PlantLiArea, .PlantUse{
-    width: 250px;
-    height: 300px;
+    width: 60%;
+    height: 80%;
     border-radius: 15px;
+    padding: 10%;
     background-color: azure;
 }
 
@@ -395,4 +392,10 @@ nav a{
 .LeftPlantSVG{
     height: 60%;
     margin-top: 10%;;
+}
+.plantPicture{
+    height: 100%;
+    width: 100%;
+    margin-left:30%;
+
 }
