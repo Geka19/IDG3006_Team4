@@ -155,7 +155,6 @@ h1, h2, h3{
 
 /* Button basics here, u can remove the color and add in your icon svgs instead*/
 .SVGicons{
-    width: 100%;
     height: 100%;
     border-radius: 50%;
     object-fit: contain;
@@ -192,18 +191,23 @@ h1, h2, h3{
     border-radius: 50%;
 }
 
-
-
-.IconTemp, .IconHum, .IconSun, .InfoButton{
-    height: 90px;
-    width: 90px;
-    border-radius: 50%;
+.InfoButton{
     display: inline-block;
 }
+.emoji{
+   
+    margin-top: 15%;
+}
 
-
-
-
+.IconTemp, .IconHum, .IconSun, .InfoButton{
+    height: 40%;
+    width: 50%;
+    border-radius: 50%;
+}
+.IconTemp, .IconHum, .IconSun{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 .DiffPlants p{
     text-align: center;
 }
@@ -233,6 +237,18 @@ nav a{
 }
 
 .Back a:hover{
+    color: var(--HovActCol);
+}
+.Backspace{
+    font-size: 60px;
+    margin-left: 10%;
+}
+
+.Backspace a{
+    color: var(--ButtonCol);
+}
+
+.Backspace a:hover{
     color: var(--HovActCol);
 }
 
