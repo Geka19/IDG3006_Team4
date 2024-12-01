@@ -155,13 +155,13 @@ h1, h2, h3{
 
 /* Button basics here, u can remove the color and add in your icon svgs instead*/
 .SVGicons{
-    width:200px;
+    width:150px;
     height: 100%;
     border-radius: 50%;
     object-fit: contain;
 }
 .SVGiconsMain{
-    width:250px;
+    width:150px;
     height: 100%;
     border-radius: 50%;
     object-fit: contain;
@@ -202,8 +202,8 @@ h1, h2, h3{
     display: inline-block;
 }
 .emoji{
-    margin-top: 60%;
-    margin-left: -100%;
+    margin-top: 10%;
+    margin-left: -50%;
 }
 
 .IconTemp, .IconHum, .IconSun, .InfoButton{
@@ -358,7 +358,7 @@ nav a{
 }
 .Suggestions{
     width: 100%;
-    height: 50%;
+   
     border-radius: 15px;
     background-color: aliceblue; 
 }
@@ -391,7 +391,7 @@ nav a{
 }
 .LeftPlantSVG{
     height: 60%;
-    margin-top: 10%;;
+
 }
 .plantPicture{
     height: 100%;
