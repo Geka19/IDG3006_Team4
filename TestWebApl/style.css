@@ -20,9 +20,11 @@ main{
     width: 100vw;
     overflow: hidden;
 }
+/*
 .SVGabout{
     margin-left:20%;
 }
+*/
 #SVGhyde{
     margin-left:35%;
 }
