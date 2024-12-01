@@ -20,7 +20,12 @@ main{
     width: 100vw;
     overflow: hidden;
 }
-
+.SVGabout{
+    margin-left:20%;
+}
+#SVGhyde{
+    margin-left:35%;
+}
 /* Innmat, clumzy code ik, men ellers var alt clused til toppen*/
 /*i laugh at offal*/ 
 .Offal{
@@ -141,6 +146,9 @@ h1, h2, h3{
     background-color: var(--HovActCol);
 }
 */
+.pen{
+    width: 90%;
+}
 
 .MiddleStuff{
     display: grid;
@@ -169,29 +177,29 @@ h1, h2, h3{
 
 .IconConditions, .InfoButtonBox{
     display: grid;
-    gap: 15px;
+    gap: 30px;
 }
 .InfoButtonBox{
     justify-content: end; /* Aligns all buttons to the right */
 }
 
 /* I don't know if this works for Ipad, you can mess around or I can fix it later*/
-.IconConditions .SVGicons:link, .SVGicons:visited {
+.IconConditions .SVGiconsMain:link, .SVGiconsMain:visited {
     display: inline-block;
     height: 70px;
     width: 70px;
     border-radius: 50%;
 }
 
-.IconConditions .SVGicons:hover, .SVGicons:active {
+.IconConditions .SVGiconsMain:hover, .SVGiconsMain:active {
     transform: scale(1.2);
     transition: transform .2s;
 }
-.InfoButtonBox .SVGicons:hover, .SVGicons:active {
+.InfoButtonBox .SVGiconsMain:hover, .SVGiconsMain:active {
     transform: scale(1.2);
     transition: transform .2s;
 }
-.InfobuttonBox .SVGicons:link, .SVGicons:visited {
+.InfobuttonBox .SVGiconsMain:link, .SVGiconsMain:visited {
     display: inline-block;
     height: 70px;
     width: 70px;
@@ -202,8 +210,7 @@ h1, h2, h3{
     display: inline-block;
 }
 .emoji{
-    margin-top: 10%;
-    margin-left: -50%;
+    margin-top: 30%;
 }
 
 .IconTemp, .IconHum, .IconSun, .InfoButton{
@@ -241,6 +248,8 @@ nav a{
 
 .Back a{
     color: var(--ButtonCol);
+    text-decoration: none;
+    font-size: 2em;
 }
 
 .Back a:hover{
@@ -293,11 +302,11 @@ nav a{
 
 
 .InfoText{
-    width: 350px;
-    height: 250px;
+    width: 70%;
+    height: 100%;
     background-color: azure;
     border-radius: 15px;
-    margin: 50px;
+    margin-top: 10%;
 }
 
 .InfoTextChanges{
@@ -339,6 +348,19 @@ nav a{
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
+.CurRecRed{
+    height:100%;
+    width: 40%;
+}
+.CurRecGreen{
+    height:100%;
+    width: 40%;
+}
+.CurRecHum{
+    height:100%;
+    width: 70%;
+}
+
 .TempsCurRec{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -351,14 +373,14 @@ nav a{
 }
 
 .CurrentTemp, .RecomendedTemp{
-    width: 100%;
+    width: 90%;
     height: 100%;
     border-radius: 15px;
-    padding:2%;
+    padding:5%;
 }
 .Suggestions{
-    width: 100%;
-   
+    width: 98%;
+    margin-top: 10%;
     border-radius: 15px;
     background-color: aliceblue; 
 }
@@ -374,11 +396,9 @@ nav a{
     text-align: center;
 }
 
-.CurRec{
-    width: 170%;
-    height: 100%;
+.aboutMain{
+    margin-left: 2%;
 }
-
 .StatsStyle{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -398,4 +418,45 @@ nav a{
     width: 100%;
     margin-left:30%;
 
+}
+@media only screen and (max-width: 1024px)  {
+    .SVGiconsMain{
+        transform:scale(0.5);
+    }
+    .MiddlePlacement{
+        display: grid;
+        grid-template-columns: 1fr 3fr 4fr 1fr;
+        grid-gap: 15px;
+    }
+    .IconConditions .SVGiconsMain:hover, .SVGiconsMain:active {
+        transform: scale(0.7);
+        transition: transform .2s;
+    }
+    .InfoButtonBox .SVGiconsMain:hover, .SVGiconsMain:active {
+        transform: scale(0.7);
+        transition: transform .2s;
+    }
+    .IconConditions, .InfoButtonBox{
+        display: grid;
+
+    }
+    .CenterPlantSVG{
+        width: 70%;
+        margin-top: 25%;
+    }
+    .ToppStuff{
+        margin-bottom: 0;
+    }
+    .emoji{
+        transform: scale(0.8);
+        margin-top: 80%;
+    }
+    .SVGabout{
+        transform:scale(0.5);
+        margin-left: -20%;
+    }
+    #SVGhyde{
+        transform:scale(0.5);
+        margin-left: 5%;
+    }
 }
