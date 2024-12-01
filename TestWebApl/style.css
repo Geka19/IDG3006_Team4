@@ -357,7 +357,6 @@ nav a{
     width: 40%;
 }
 .CurRecHum{
-    height:100%;
     width: 70%;
 }
 
@@ -459,4 +458,5 @@ nav a{
         transform:scale(0.5);
         margin-left: 5%;
     }
+    
 }
