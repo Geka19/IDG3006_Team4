@@ -1,0 +1,255 @@
+:root{
+    --ButtonCol: #005261;
+    --HovActCol: #038096;
+}
+
+body{
+    margin: 0;
+}
+
+.Offal{
+    margin: 2%;
+}
+h1, h2, h3, p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3{
+    font-weight: bolder;
+}
+
+.BackGr{
+    height: 178.5mm;
+    width: 247.6mm;
+    background-image: linear-gradient(#9f86c0, #e0b1cb);
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.CenterPlant{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    place-self: center;
+}
+
+.ToppStuff{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    
+}
+
+.DiffPlants{
+    display:grid;
+    grid-template-columns: 45px 45px;
+    grid-row: auto auto;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+}
+
+.PlantNameType{
+    width: 250px;
+    height: 100px;
+    background-color: aliceblue;
+    border-radius: 15px;
+}
+
+.PlantNameType h2, p{
+    text-align: center;
+}
+
+.PlantName p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.EditPen{
+    height: 55px;
+    width: 55px;
+    background-color: #bbb;
+}
+
+.PlussIcon{
+    height: 55px;
+    width: 55px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    font-size: 400%;
+    font-weight: bolder;
+    color: azure;
+}
+
+.Plant1, .Plant2, .Plant3, .Plant4{
+    height: 55px;
+    width: 55px;
+    background-color: var(--ButtonCol);
+    border-radius: 50%;
+    display: inline-block;
+    color: aliceblue;
+    transition: transform .2s;
+}
+
+.Plant1:hover, .Plant2:hover, .Plant3:hover, .Plant4:hover{
+    background-color: var(--HovActCol);
+    transform: scale(1.2);
+}
+
+.Plant1:active, .Plant2:active, .Plant3:active, .Plant4:active{
+    background-color: var(--HovActCol);
+}
+
+.IconConditions{
+    display: grid;
+    gap: 15px;
+}
+
+.IconConditions a:link, a:visited {
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.IconConditions a:hover, a:active {
+    transform: scale(1.2);
+}
+
+.IconTemp, .IconHum, .IconSun{
+    height: 70px;
+    width: 70px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: transform .2s;
+}
+
+.InfoButtonBox{
+    place-self: end;
+    transition: transform .2s;
+}
+
+.InfoButton a:link, a:visited {
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    background-color: #edd161;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.InfoButton a:hover{
+    transform: scale(1.2);
+}
+
+.DiffPlants p{
+    text-align: center;
+}
+
+/*About page stuff */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav a{
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.Back{
+    font-size: 60px;
+    margin-right: 26%;
+}
+
+.Back a{
+    color: var(--ButtonCol);
+}
+
+.Back a:hover{
+    color: var(--HovActCol);
+}
+
+.About, .History, .Cooking, .Care{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: var(--ButtonCol);
+    text-align: center;
+}
+
+.About:hover, .History:hover, .Cooking:hover, .Care:hover{
+    background-color: var(--HovActCol);
+}
+
+.About:active, .History:active, .Cooking:active, .Care:active{
+    background-color: var(--HovActCol);
+}
+
+.Plants {
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.PlantsSpfs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    padding: 5px;
+}
+
+.IconPlant{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #edd161;
+}
+
+.InfoText{
+    width: 350px;
+    height: 250px;
+    background-color: azure;
+    border-radius: 15px;
+    margin: 50px;
+}
+
+.InfoTextChanges{
+    padding: 7%;
+}
+
+.InfoText p{
+    text-decoration: underline;
+    text-decoration-color: #24d298;
+    text-align: start;
+}
+
+.PlantFacts{
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    padding: 5px;
+}
+
+.PlantFacts h3{
+    text-align: center;
+}
+
+.PlantHeight, .PlantLiArea, .PlantUse{
+    width: 250px;
+    height: 300px;
+    border-radius: 15px;
+    background-color: azure;
+}
